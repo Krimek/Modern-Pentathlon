@@ -1,0 +1,6 @@
+C:\Users\krzys\Desktop\ModernPentathlon\ModernPentathlon.DataAccessLayer\bin\Debug\ModernPentathlon.DataAccessLayer.dll
+C:\Users\krzys\Desktop\ModernPentathlon\ModernPentathlon.DataAccessLayer\bin\Debug\ModernPentathlon.DataAccessLayer.pdb
+C:\Users\krzys\Desktop\ModernPentathlon\ModernPentathlon.DataAccessLayer\obj\Debug\ModernPentathlon.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\krzys\Desktop\ModernPentathlon\ModernPentathlon.DataAccessLayer\obj\Debug\ModernPentathlon.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\krzys\Desktop\ModernPentathlon\ModernPentathlon.DataAccessLayer\obj\Debug\ModernPentathlon.DataAccessLayer.dll
+C:\Users\krzys\Desktop\ModernPentathlon\ModernPentathlon.DataAccessLayer\obj\Debug\ModernPentathlon.DataAccessLayer.pdb
