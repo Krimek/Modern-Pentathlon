@@ -17,6 +17,12 @@ namespace ModernPentathlon.Common
             Guest
         }
 
+        public enum Sex
+        {
+            Women,
+            Men
+        };
+
         public enum CompetitionType
         {
             [Description("Swimming, running, shooting, fencing and riding")]

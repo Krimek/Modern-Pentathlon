@@ -11,9 +11,8 @@ namespace ModernPentathlon.DataAccessLayer
     {
         public AdminRepository() : base()
         {
-
+            
         }
-
-
+        
     }
 }

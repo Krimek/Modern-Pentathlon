@@ -48,14 +48,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminRepository.cs" />
-    <Compile Include="BaseRepository.cs" />
-    <Compile Include="CompetitionRepository.cs" />
-    <Compile Include="CompetitorRepository.cs" />
+    <Compile Include="Interfaces\IAdminRepository.cs" />
+    <Compile Include="Interfaces\ISearchCompetitor.cs" />
+    <Compile Include="Interfaces\ISearchUsers.cs" />
+    <Compile Include="Repositories\AdminRepository.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\CompetitionRepository.cs" />
+    <Compile Include="Repositories\CompetitorRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ModernPentathlon.Common\ModernPentathlon.Common.csproj">
+      <Project>{8b7d779b-edb1-42b5-9e11-11e4cbd7ab8c}</Project>
+      <Name>ModernPentathlon.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ModernPentathlon.DataBaseScheme\ModernPentathlon.DataBaseScheme.csproj">
       <Project>{94b18e6d-c9eb-456b-8544-7c003032c405}</Project>
       <Name>ModernPentathlon.DataBaseScheme</Name>
