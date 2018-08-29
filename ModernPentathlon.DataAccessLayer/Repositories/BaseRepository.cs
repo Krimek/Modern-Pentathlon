@@ -9,7 +9,7 @@ namespace ModernPentathlon.DataAccessLayer
 {
     public abstract class BaseRepository
     {
-        private EFContext _context;
+        protected EFContext _context;
 
         protected BaseRepository()
         {
