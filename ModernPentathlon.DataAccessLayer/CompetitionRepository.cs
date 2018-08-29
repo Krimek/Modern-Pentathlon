@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ModernPentathlon.DataBaseScheme;
 
 namespace ModernPentathlon.DataAccessLayer
 {
-    class BaseDataAccess
+    class CompetitionRepository : BaseRepository
     {
-        private EFContext _context;
-        public BaseDataAccess()
+        public CompetitionRepository() : base()
         {
-            _context = new EFContext();
         }
     }
 }
