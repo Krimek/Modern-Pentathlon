@@ -3,17 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ModernPentathlon.DataBaseScheme;
 
 namespace ModernPentathlon.DataAccessLayer
 {
-    class AdminAccessDataBase : BaseDataAccess
+    class UserRepository :BaseRepository
     {
-        public AdminAccessDataBase() : base()
+        public UserRepository() : base()
         {
 
         }
-
-
     }
 }
