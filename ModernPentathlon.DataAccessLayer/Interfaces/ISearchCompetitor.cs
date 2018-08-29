@@ -10,7 +10,7 @@ namespace ModernPentathlon.DataAccessLayer.Interfaces
     interface ISearchCompetitor
     {
         IEnumerable<Competitor> GetCompetitorBasedOnSex(Common.Enums.Sex sex);
-        IEnumerable<Competitor> GetCompetitorFromYear(int year); 
+        IEnumerable<Competitor> GetCompetitorBetweenBirthYear(int startYear, int finishYear); 
         IEnumerable<Competitor> GetCompetitorFromTeam(string team);
     }
 }
